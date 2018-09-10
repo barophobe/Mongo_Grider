@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4d43c7-a740-4837-a030-cedb3a288a4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/prod/users/test/update_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/prod/users/test/validation_test.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/prod/users/src/user.js" afterPath="$PROJECT_DIR$/prod/users/src/user.js" />
+      <change beforePath="$PROJECT_DIR$/prod/users/test/update_test.js" afterPath="$PROJECT_DIR$/prod/users/test/update_test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prod/users/test/update_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="395">
+              <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation_test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prod/users/test/validation_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -80,8 +92,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prod/users/src/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -101,6 +113,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/prod/users/test/reading_test.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/prod/users/test/validation_test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/prod/users/test/update_test.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/prod/users/test/delete_test.js" root0="SKIP_INSPECTION" />
   </component>
@@ -110,6 +123,8 @@
         <option value="$PROJECT_DIR$/prod/users/test/reading_test.js" />
         <option value="$PROJECT_DIR$/prod/users/test/delete_test.js" />
         <option value="$PROJECT_DIR$/prod/users/test/update_test.js" />
+        <option value="$PROJECT_DIR$/prod/users/src/user.js" />
+        <option value="$PROJECT_DIR$/prod/users/test/validation_test.js" />
       </list>
     </option>
   </component>
@@ -214,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536577117833</updated>
-      <workItem from="1536577119030" duration="10407000" />
+      <workItem from="1536577119030" duration="15059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10407000" />
+    <option name="totallyTimeSpent" value="15059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -252,20 +267,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/prod/users/test/create_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prod/users/src/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -307,8 +314,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prod/users/test/update_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="395">
+          <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prod/users/src/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prod/users/test/validation_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
           <folding />
         </state>
       </provider>
