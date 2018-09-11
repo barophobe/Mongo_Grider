@@ -12,10 +12,16 @@ const UserSchema = new Schema({
         },
         required: [true, 'Name is required.']
     },
-    postCount: Number,
-    posts: [PostSchema]
-
+    posts: [PostSchema],
+    likes: Number
 });
+
+// Fat arrow function is not used because the this keyword. If a fat arrow was used this would not refer to the instance ,
+// but instead would refer to the file!
+UserSchema.virtual('postCount').get(function() {
+    return this.posts.length;
+});
+
 
 const User = mongoose.model('user', UserSchema);
 
