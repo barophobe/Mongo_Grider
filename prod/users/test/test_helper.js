@@ -15,7 +15,12 @@ mongoose.connection
 //the following is a hook, gets executed before any tests...
 beforeEach((done) => {
     // this takes time to run, so need to tell mocha not to continue till done... uses done callback!
-    mongoose.connection.collections.users.drop(() => {
-        done();
-    }); 
+    const { users, comments, blogposts } = mongoose.connection.collections;
+            users.drop(() => {
+            comments.drop(() => {
+            blogposts.drop(() => {
+                done();
+            });
+        });
+    });
 });
