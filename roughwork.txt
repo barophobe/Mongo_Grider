@@ -1,0 +1,4 @@
+// start mongo server "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+// start mongo server Desktop  "C:\Program Files\MongoDB\Server\3.4.7\bin\mongod.exe" --dbpath="c:\data\db"
+
+"start": "electron . & webpack-dev-server"
