@@ -158,32 +158,6 @@
               <item name="muber" type="b2602c69:ProjectViewProjectNode" />
               <item name="muber" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="muber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muber" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="muber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muber" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="muber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muber" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="muber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muber" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="muber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muber" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -225,12 +199,12 @@
       <workItem from="1536944745950" duration="6896000" />
       <workItem from="1537001293803" duration="21165000" />
       <workItem from="1537264978793" duration="3782000" />
-      <workItem from="1537280079461" duration="3215000" />
+      <workItem from="1537280079461" duration="3585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35058000" />
+    <option name="totallyTimeSpent" value="35428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
